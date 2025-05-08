@@ -2,8 +2,6 @@
 
 A Streamlit application that allows you to send personalized emails to multiple recipients using Gmail API.
 
-![Email Sender App](https://via.placeholder.com/800x400?text=Email+Sender+App)
-
 ## Features
 
 - 📧 Send personalized emails to multiple recipients
@@ -25,7 +23,7 @@ A Streamlit application that allows you to send personalized emails to multiple 
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/email-sender-app.git
+git clone https://github.com/LoriyaHarsh/Autoemail.git
 cd email-sender-app
 ```
 
@@ -76,7 +74,7 @@ pip install streamlit pandas google-auth google-auth-oauthlib google-api-python-
 ### Step 1: Start the application
 
 ```bash
-streamlit run mail.py
+streamlit run main.py
 ```
 
 The application will open in your default web browser. If it doesn't open automatically, navigate to `http://localhost:8501`.
@@ -136,10 +134,6 @@ You can customize the email content with placeholders that match the column name
 - Never share your `credentials.json` or `token.json` files
 - Use test mode first to verify email content before sending to real recipients
 - Be mindful of Gmail's sending limits to avoid account restrictions
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
